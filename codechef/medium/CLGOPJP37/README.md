@@ -73,7 +73,7 @@ Use  **--**  for decreasing the value of a variable by 1:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T07:57:35.596Z  
+**Submitted:** 2026-10-01T07:59:14.009Z  
 
 ```java
 class Codechef
@@ -83,7 +83,7 @@ class Codechef
 	    // Update your code below this line
 	int a = 21;
 	int b = 40;
-	System.out.println(a - b);
+	System.out.println(a + b);
 	}
 }
 ```
