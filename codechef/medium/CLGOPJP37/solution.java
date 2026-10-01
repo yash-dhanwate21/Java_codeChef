@@ -5,6 +5,6 @@ class Codechef
 	    // Update your code below this line
 	int a = 21;
 	int b = 40;
-	System.out.println(a + b);
+	System.out.println(a - b);
 	}
 }
