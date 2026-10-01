@@ -73,7 +73,7 @@ Use  **--**  for decreasing the value of a variable by 1:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T07:59:14.009Z  
+**Submitted:** 2026-10-01T07:57:59.144Z  
 
 ```java
 class Codechef
