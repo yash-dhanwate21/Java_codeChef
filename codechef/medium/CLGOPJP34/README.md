@@ -1,0 +1,48 @@
+# CLGOPJP34
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+### MCQ - 10
+
+What will be the output of this code?
+
+```
+class Codechef {
+  public static void main(String[] args) {
+    int a = 10;
+    int b = 3;
+    int c = a / b;
+    System.out.println(c);
+  }
+}
+
+```
+
+## Solution
+
+**Language:** C++  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-10-01T07:52:52.086Z  
+
+```cpp
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		int a = -50;
+		int b = 40;
+		// update your code below this line
+		System.out.println(a + b);
+		System.out.println(a * b);
+		System.out.println(a / b);
+	}
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/CLGOPJP34)
