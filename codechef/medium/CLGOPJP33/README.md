@@ -38,7 +38,7 @@ Note -  ***`sum`**  *,  ***`product`***  and  ***`quotient`** * need to be integ
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T07:50:59.314Z  
+**Submitted:** 2026-10-08T09:38:30.701Z  
 
 ```java
 class Codechef
