@@ -4,18 +4,16 @@
 
 ## Problem
 
-### Multiple choice question
-
-Which of the following expressions evaluates to `false`?
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T09:59:38.910Z  
+**Submitted:** 2026-10-08T09:57:45.408Z  
 
-```cpp
+```java
 public class Main {
     public static void main(String[] args) {
         int height = 15;
