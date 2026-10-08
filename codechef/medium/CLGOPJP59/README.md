@@ -4,23 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### Coding problem - 4
+
+Write a program to calculate the area of a circle using the formula:
+`Area` = `pi` x $r^{\text{2}}$
+`pi` = 22 / 7
+Output the area as a float.
+
+ **Note**  - Please consider whole number radius.
+
+### Sample 1:
+Input
+Output
+
+```
+3
+```
+
+```
+28.285713
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T15:34:23.938Z  
+**Submitted:** 2026-10-08T15:44:39.744Z  
 
 ```java
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        float f = 49;
-        float c = ((f - 32) * 5) / 9; // Ensure that the division is performed with float
-        System.out.println(c);
+        int r = 3;
+        int rSquared = r * r; // Calculate the square of the radius
+        // Complete the code
+        float area = (22.0f/7) * rSquared; 
+        System.out.println(area); 
     }
 }
 
