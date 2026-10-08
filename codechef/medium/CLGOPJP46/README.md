@@ -54,7 +54,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T10:02:02.472Z  
+**Submitted:** 2026-10-08T10:02:23.636Z  
 
 ```java
 public class Main {
@@ -62,7 +62,7 @@ public class Main {
         int num = 15;
         // Update the blank in code below
 
-        System.out.println((num % 2 == 1) ? 0 : 5);
+        System.out.println((num % 2 == 1) ? 0 : 9);
     }
 }
 
