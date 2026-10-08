@@ -15,14 +15,14 @@ Output $1$ or $0$ assuming that the voting age is $18$ i.e., a person's age has 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T14:57:28.085Z  
+**Submitted:** 2026-10-08T14:57:44.806Z  
 
 ```java
 public class Main {
     public static void main(String[] args) {
         int age = 20;
         // Update the blank in code below
-        System.out.println((age >= 18) ?  25:3);
+        System.out.println((age >= 18) ?  18:3);
     }
 }
 
