@@ -36,7 +36,7 @@ Write a program which does the following
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T07:19:10.971Z  
+**Submitted:** 2026-10-08T09:37:04.877Z  
 
 ```java
 class Codechef
