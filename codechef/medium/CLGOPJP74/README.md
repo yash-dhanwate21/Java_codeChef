@@ -60,7 +60,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T14:56:01.174Z  
+**Submitted:** 2026-10-17T14:57:35.722Z  
 
 ```java
 import java.util.Scanner;
@@ -74,9 +74,7 @@ class Codechef
         int b = 20;
         if (a > b) {
             System.out.println("Coding is Fun!");
-        } else {
-            System.out.println("Optional");
-        }
+        } 
 	}
 }
 ```
