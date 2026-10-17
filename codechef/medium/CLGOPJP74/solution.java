@@ -9,8 +9,6 @@ class Codechef
         int b = 20;
         if (a > b) {
             System.out.println("Coding is Fun!");
-        } else {
-            System.out.println("Optional");
-        }
+        } 
 	}
 }
