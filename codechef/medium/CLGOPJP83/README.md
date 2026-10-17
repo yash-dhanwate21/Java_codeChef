@@ -4,16 +4,39 @@
 
 ## Problem
 
-_Description not available._
+### MCQ - 29
+
+What will be the output of this code?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+
+        if (a >= b) {
+            System.out.println("a is greater or equal to b.");
+        }
+        if (a == 0) {
+            System.out.println("a is 0.");
+        }
+        if (a <= 5) {
+            System.out.print("a is not more than 5.");
+        }
+        System.out.println(" Program ends.");
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T15:25:02.588Z  
+**Submitted:** 2026-10-17T15:26:32.532Z  
 
-```java
+```cpp
 import java.util.*;
 
 class Codechef
