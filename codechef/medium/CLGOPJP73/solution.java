@@ -2,14 +2,16 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-	   // Update the blank in the code given below
-		int Age = 25;
-        int Vage = 18;
+	   // Debug the code given below
+	    int age = 25;
+        int voting_age = 18;
 
-        if (Age >= Vage) {
-            System.out.println("Old enough to vote!");
-        } else {
+        if (age < voting_age) {
             System.out.println("Not old enough to vote.");
+            System.out.println("Wait for " + (voting_age - age) + " years");
+
+        } else {
+            System.out.println("Old enough to vote!");
         }
 	}
 }
