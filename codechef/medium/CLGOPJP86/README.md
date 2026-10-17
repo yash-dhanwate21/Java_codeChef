@@ -4,73 +4,69 @@
 
 ## Problem
 
-### And Statement
+### Or Statement
 
-Till now we used only one condition in our  **if**  or  **else if**  statements. But what if we want to use multiple conditions? Say we want to check if a person is female and older than 18 years of age, how can we do that in Java?
-
-To achieve that, we have to learn about  **logical operators**.
-
-The  **&&**  (pronounced  **"and"**) keyword is a logical operator that allows you to combine multiple conditions.
-It returns  **`true`**  if all the conditions are true, and  **`false`**  if at least one condition is false.
-
-Let's start with a simple example.
-Suppose you have two variables:  **`x`**  and  **`y`**. You want to check if both  **`x`**  and  **`y`**  are greater than 5. Here's how you would use the  **`&&`**  operator to combine these conditions:
-
-```
-int x = 8;
-int y = 10;
-
-if (x > 5 && y > 5) {
-    System.out.println("Both are greater than 5");
-} else {
-    System.out.println("At least one of them is less than 5");
-}
-
-// Output
-// Both are greater than 5
-
-```
+'||' can be used to insert the 'or' condition in a `java` code.
 
 ### Task
 
 Write a program which does the following:
 
-- Declare a variable a and initialize it to the values $15$.
-- Compute if a is completely divisible by both 7 and 5.
-- Depending on the result above - output the following to the console: The number is divisible by both 5 & 7 The number is not divisible by both 5 & 7
-- Re-assign a with number 35, and check for above again.
+- Take input from the console for integer variables z, x and c.
+- Do the above for 2 separate input tuples: z = 5, x = 3, c = 2. z = 3, x = 5, c = 8.
+- Compute and output the following for each tuple z, x and c: "PASS" if c is greater than either x or z. Otherwise print "FAIL" in every other case.
+### Sample 1:
+Input
+Output
 
- **Note:**  The  *%*  (modulo operator) gives remainder when  **x**  is divided by  **y**  and is written as  **x % y**.
+```
+5 3 2
+3 5 8
+```
+
+```
+FAIL
+PASS
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T15:32:18.844Z  
+**Submitted:** 2026-10-17T15:36:24.690Z  
 
 ```java
+import java.util.*;
+
 class Codechef
 {
 	public static void main (String[] args)
 	{
-	   // Update the blank in the code given below
-		int a = 15;
-        
-        if (a % 7 == 0 && a % 5 == 0) {
-            System.out.println("The number is divisible by both 5 & 7");
+	   // Update the blanks in the code given below
+		Scanner read = new Scanner(System.in);
+
+        int z;
+        int x;
+        int c;
+        z = read.nextInt();
+        x = read.nextInt();
+        c = read.nextInt();
+        if (c > x && c > z) {
+            System.out.println("PASS");
         }
         else {
-            System.out.println("The number is not divisible by both 5 & 7");
+            System.out.println("FAIL");
         }
-        
-        a = 35;
-        
-        if (a % 7 == 0 && a % 5 == 0) {
-            System.out.println("The number is divisible by both 5 & 7");
+
+        z = read.nextInt();
+        x = read.nextInt();
+        c = read.nextInt();
+        if (c > x && c > z) {
+            System.out.println("PASS");
         }
         else {
-            System.out.println("The number is not divisible by both 5 & 7");
+            System.out.println("FAIL");
         }
 	}
 }
