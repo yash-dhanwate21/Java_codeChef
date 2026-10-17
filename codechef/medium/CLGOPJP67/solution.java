@@ -11,6 +11,6 @@ class Codechef
 
         int area = length * width;
 
-        System.out.println("Area of the rectangle is: "+area);
+        System.out.println("Area of the rectangle is: " + area);
 	}
 }
