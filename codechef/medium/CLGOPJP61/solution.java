@@ -4,10 +4,10 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-		// your code goes here
+		// update your code below this line
 		Scanner sc = new Scanner(System.in);
-		Scanner objName = new Scanner(System.in);
-		String varName = objName.nextLine();
-		System.out.println(varName);
+		int num = sc.nextInt();
+		System.out.println(num * num);
+		sc.close();
 	}
 }
