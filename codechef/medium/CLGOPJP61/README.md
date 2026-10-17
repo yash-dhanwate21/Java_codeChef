@@ -4,45 +4,33 @@
 
 ## Problem
 
-### Taking user input
+### Scanner Methods
 
-You have already learnt how to output values. Let's see how to take input values from users.
+You have already seen how to read a `String`. Let's see how to read the other `datatype` values:
 
-`Java` uses the `Scanner` class found in `java.util` package to get user input. You have to import the package to use the `Scanner` class.
+- nextInt(): Reads integer values.
+- nextFloat(): Reads float value.
+- nextDouble(): Reads double value.
+- nextBoolean(): Reads boolean value.
+- nextLine(): Reads string value until newline character ('\n') is encountered.
+- next(): Reads string value until space or newline character is encountered.
+### Task
 
-In Java, the  **import**  keyword is used to bring in classes or entire packages from external libraries or modules into your current source file, allowing you to use their functionality without having to fully qualify their names every time.
+ **Write a program for the following** :
 
-```
-import java.util.Scanner;
-
-```
-
-To use the `Scanner` class, you have to create an object of the class and use any of the methods to read `string`, numbers etc.
-
-```
-Scanner objName = new Scanner(System.in);
-
-```
-
-The method `nextLine()` is used to read a line of text from input and return it in `string` format. The following line will read a `string` input from user. We will also see how to read integers and other data types later on.
-
-```
-String varName = objName.nextLine();
-
-```
-
- **Click on `'Submit'` in the `IDE` to run the code**.
-
+- Declare an integer variable num.
+- Read the value from the user.
+- Print it's square.
 ### Sample 1:
 Input
 Output
 
 ```
-John
+4
 ```
 
 ```
-John
+16
 ```
 
 ## Solution
@@ -50,7 +38,7 @@ John
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T13:43:11.670Z  
+**Submitted:** 2026-10-17T13:55:34.366Z  
 
 ```java
 import java.util.Scanner;
@@ -59,11 +47,11 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-		// your code goes here
+		// update your code below this line
 		Scanner sc = new Scanner(System.in);
-		Scanner objName = new Scanner(System.in);
-		String varName = objName.nextLine();
-		System.out.println(varName);
+		int num = sc.nextInt();
+		System.out.println(num * num);
+		sc.close();
 	}
 }
 ```
