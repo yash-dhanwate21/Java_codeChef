@@ -28,7 +28,7 @@ Hello Chef
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T14:03:37.131Z  
+**Submitted:** 2026-10-17T14:04:56.994Z  
 
 ```java
 import java.util.Scanner;
@@ -38,10 +38,9 @@ class Codechef
 	public static void main (String[] args)
 	{
 		// Update the blank in the code below
-		Scanner sc = new Scanner(System.in);
-		String x = sc.nextLine();
+		Scanner read = new Scanner(System.in);
+		String x = read.nextLine();
 		System.out.println("Hello " + x);
-		sc.close();
 	}
 }
 
