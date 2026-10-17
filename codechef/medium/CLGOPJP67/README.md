@@ -32,7 +32,7 @@ Area of the rectangle is: 230
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T14:16:51.708Z  
+**Submitted:** 2026-10-17T14:17:15.774Z  
 
 ```java
 import java.util.Scanner;
@@ -48,7 +48,7 @@ class Codechef
 
         int area = length * width;
 
-        System.out.println("Area of the rectangle is: "+area);
+        System.out.println("Area of the rectangle is: " + area);
 	}
 }
 ```
