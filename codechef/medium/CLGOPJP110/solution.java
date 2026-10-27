@@ -4,7 +4,7 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
         int C;
         C = scanner.nextInt();
-        if (C > 18) {
+        if (C > 10) {
             System.out.println("HOT");
         } else {
             System.out.println("COLD");
