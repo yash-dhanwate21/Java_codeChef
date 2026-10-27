@@ -1,20 +1,14 @@
 import java.util.*;
-
 class Codechef {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a, b;
-
-        // Read input values
-        a = scanner.nextInt();
-        b = scanner.nextInt();
-
-        if (a + b + (a * b) == 111) {
-            System.out.println("YES");
+        int C;
+        C = scanner.nextInt();
+        if (C > 10) {
+            System.out.println("HOT");
         } else {
-            System.out.println("NO");
+            System.out.println("COLD");
         }
-
         scanner.close();
     }
 }
