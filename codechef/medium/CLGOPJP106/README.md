@@ -4,53 +4,25 @@
 
 ## Problem
 
-### Debug the code - 10
-
-Write a program which does the following:
-
-- Declare two integer variables length and width.
-- Accept two user inputs from the console and store these values in length and width respectively.
-- Create another integer variable area - compute the area of the rectangle and store it in area.
-- Output area to the console.
-### Sample 1:
-Input
-Output
-
-```
-10
-23
-```
-
-```
-Area of the rectangle is: 230
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-27T05:05:21.316Z  
+**Submitted:** 2026-10-27T05:04:10.715Z  
 
 ```java
 // Debug the given code
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		int length, width;
-        int area;
-        Scanner scanner = new Scanner(System.in);
-        length = scanner.nextInt();
-        width = scanner.nextInt();
+public class Main {
+    public static void main(String[] args) {
         
-        area = length * width;
-        System.out.println("Area of the rectangle is: " +area); 
-	}
+        char[] var = "CodeChef".toCharArray();
+        System.out.print(var[0]);
+        System.out.print(var[1]);
+        System.out.print(var[2]);
+    }
 }
 
 ```
