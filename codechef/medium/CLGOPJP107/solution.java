@@ -7,10 +7,13 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        int s = 14;
-        int area = s * s;
-        int cost = area * 7;
-        System.out.println(area);
-        System.out.println(cost +"$");
+		int length, width;
+        int area;
+        Scanner scanner = new Scanner(System.in);
+        length = scanner.nextInt();
+        width = scanner.nextInt();
+        
+        area = length * width;
+        System.out.println("Area of the rectangle is: " +area); 
 	}
 }
