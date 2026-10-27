@@ -1,10 +1,18 @@
 // Debug the given code
-public class Main {
-    public static void main(String[] args) {
-        
-        char[] var = "CodeChef".toCharArray();
-        System.out.print(var[0]);
-        System.out.print(var[1]);
-        System.out.print(var[2]);
-    }
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+	    int age = 18;
+	    if(age >= 18){
+	        System.out.println(1);
+	    }
+	    else{
+	        System.out.println(0);
+	    }
+	}
 }
