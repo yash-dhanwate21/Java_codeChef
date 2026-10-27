@@ -4,39 +4,16 @@
 
 ## Problem
 
-### MCQ - 31
-
-What will be the output of this code?
-
-```
-class Codechef {
-  public static void main(String[] args) {
-    int a = 10;
-    int b = -10;
-
-    if (a >= b) {
-       System.out.print("a is greater or equal to b. ");
-    }
-    if (a == 0 || b == 0) {
-       System.out.print("At least one is 0. ");
-    }
-    if (a == 0 && b == 0) {
-       System.out.print("Both are 0. ");
-    }
-    System.out.println("Program ends");
-  }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-27T04:03:23.541Z  
+**Submitted:** 2026-10-27T04:01:38.301Z  
 
-```cpp
+```java
 import java.util.*;
 
 class Codechef
