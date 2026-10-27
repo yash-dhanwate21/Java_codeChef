@@ -4,34 +4,14 @@
 
 ## Problem
 
-### Debug the code - 11
-
-Write a program which does the following:
-
-- Find the area of a square of side 14cm.
-- Also, find the cost of painting the square if the paint costs is $7/cm2.
-- Initialize the following variables in your program and use them in the computation: s to store the length of side the square. area to store the area of the square. cost to store the cost of painting.
-- Output area and cost to the console on separate lines.
-- Note: Include the character "$" with the cost without any space.
-### Sample 1:
-Input
-Output
-
-```
-
-```
-
-```
-196
-1372$
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-27T05:07:03.605Z  
+**Submitted:** 2026-10-27T05:05:23.721Z  
 
 ```java
 // Debug the given code
@@ -43,11 +23,14 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        int s = 14;
-        int area = s * s;
-        int cost = area * 7;
-        System.out.println(area);
-        System.out.println(cost +"$");
+		int length, width;
+        int area;
+        Scanner scanner = new Scanner(System.in);
+        length = scanner.nextInt();
+        width = scanner.nextInt();
+        
+        area = length * width;
+        System.out.println("Area of the rectangle is: " +area); 
 	}
 }
 
