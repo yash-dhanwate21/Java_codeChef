@@ -58,7 +58,7 @@ The temperature is 16, which is not more than 20. So, Chef considers the climate
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-27T05:23:49.865Z  
+**Submitted:** 2026-10-27T05:25:25.812Z  
 
 ```java
 import java.util.*;
@@ -67,7 +67,7 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
         int C;
         C = scanner.nextInt();
-        if (C > 10) {
+        if (C > 18) {
             System.out.println("HOT");
         } else {
             System.out.println("COLD");
