@@ -1,14 +1,18 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 class Codechef {
     public static void main(String[] args) {
-        int n;
-        n = 5;
-        if (n % 2 == 0) {
-            System.out.println("Even");
-        } else {
-            System.out.println("Odd");
-         }   // correct the closing bracket
+        int a, b;
+        Scanner scanner = new Scanner(System.in);
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+    
+        if (b == 0) {
+            System.out.println("infinity");   // uncomment the if condition
+            return;
+        }
+    
+
+        System.out.println(a / b);
     }
 }
