@@ -9,8 +9,8 @@ class Codechef {
         c = scanner.nextInt();
         d = scanner.nextInt();
 
-        float p = (float) a / b;
-        float q = (float) c / d; // Cast b to float to ensure correct division
+        float p = a - c;
+        float q = b - d; // Cast b to float to ensure correct division
         if (p < q) {
             System.out.println("First");
         } else if (p > q) {
