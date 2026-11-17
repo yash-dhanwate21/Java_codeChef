@@ -1,0 +1,35 @@
+# CLGOPJP122
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** Java  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-11-17T05:07:04.782Z  
+
+```java
+class Codechef
+{
+	public static void main (String[] args)
+	{
+	   // Update the blank in the code given below.
+		int i = 0;
+		do{
+		    System.out.println(i);
+		    i++;
+		}
+		while(i < 6);
+		
+	}
+}
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/CLGOPJP122)
