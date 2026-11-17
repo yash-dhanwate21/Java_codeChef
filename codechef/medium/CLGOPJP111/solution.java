@@ -2,13 +2,10 @@ import java.util.*;
 class Codechef {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int C;
-        C = scanner.nextInt();
-        if (C > 18) {
-            System.out.println("HOT");
-        } else {
-            System.out.println("COLD");
-        }
+        int x, k;
+        k = scanner.nextInt();
+        x = scanner.nextInt();
+        System.out.println(k - x);
         scanner.close();
     }
 }
