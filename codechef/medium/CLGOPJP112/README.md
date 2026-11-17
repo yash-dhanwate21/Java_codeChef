@@ -62,7 +62,7 @@ Any
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T04:43:07.153Z  
+**Submitted:** 2026-11-17T04:44:32.849Z  
 
 ```java
 // Debug the code
