@@ -4,30 +4,14 @@
 
 ## Problem
 
-### Odd numbers
-### Task
-
-Write a program to print odd numbers between $10$ to $20$ on separate lines:
-
-- Think of where the loop should start from, declare a variable a and initialise it to that value.
-- Use the while syntax to create a loop, Think of what condition would stop the loop when the iterator reaches its end. Think of how to adjust the value of the iterator within each iteration. Would it be incremented or decremented? By what value should it be incremented or decremented?
-#### Expected output:
-
-```
-11
-13
-15
-17
-19
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T04:59:26.824Z  
+**Submitted:** 2026-11-17T04:58:21.765Z  
 
 ```java
 import java.util.Scanner;
@@ -36,14 +20,13 @@ class Codechef
 {
 	public static void main (String[] args) 
 	{
-	   // Update the code below this line.
-	    int i = 11;
-	    while(i < 20){
-	        System.out.println(i);
-	        i = i + 2;
-	        
-	    }
-	}
+	   // Update the blank given below
+		int i = 10;
+        while(i >= 0){
+            System.out.println(i);
+            i--;
+        }
+    }
 }
 
 ```
