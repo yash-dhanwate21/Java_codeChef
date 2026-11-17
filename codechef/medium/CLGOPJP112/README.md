@@ -62,7 +62,7 @@ Any
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T04:44:32.849Z  
+**Submitted:** 2026-11-17T04:47:45.157Z  
 
 ```java
 // Debug the code
@@ -76,8 +76,8 @@ class Codechef {
         c = scanner.nextInt();
         d = scanner.nextInt();
 
-        float p = (float) a / b;
-        float q = (float) c / d; // Cast b to float to ensure correct division
+        float p = a - c;
+        float q = b - d; // Cast b to float to ensure correct division
         if (p < q) {
             System.out.println("First");
         } else if (p > q) {
