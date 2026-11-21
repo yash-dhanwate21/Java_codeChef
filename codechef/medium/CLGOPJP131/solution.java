@@ -2,16 +2,19 @@ import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
+	public static void main (String[] args) 
 	{
-		Scanner read = new Scanner(System.in);
-		int num = read.nextInt();
-		//  Write your code here
-		int factorial = 1;
-		for(int i = 1; i <= num; i++)
-		{
-		    factorial = factorial * i;
-		}
-		System.out.println(factorial);
+	    Scanner scanner = new Scanner(System.in);
+
+        int N, prev = 0, current = 1;
+        N = scanner.nextInt();
+        // Update your code below this line.
+        for(int i = 0; i<N;i++)
+        {
+            System.out.println(prev + " ");
+            int next = prev + current;
+            prev = current;
+            current = next;
+        }
 	}
 }
