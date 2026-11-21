@@ -4,14 +4,48 @@
 
 ## Problem
 
-_Description not available._
+### Factorial
+
+Chef's coding journey continues.
+Chef was given an integer input $N$.
+
+He wrote a code using WHILE loops to output the factorial of N.
+But he wasn't able to complete some parts of the code.
+Help him complete his code.
+
+ **Note:**  The factorial of a number $N$ is the product of each number from 1 to $N$.
+$N!$(N factorial)$= 1 \times 2 \times 3 \times..... N$
+
+### Sample 1:
+Input
+Output
+
+```
+5
+```
+
+```
+120
+```
+
+### Sample 2:
+Input
+Output
+
+```
+8
+```
+
+```
+40320
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-21T08:58:01.575Z  
+**Submitted:** 2026-11-21T09:00:17.969Z  
 
 ```java
 // Debug the code below to solve the problem.
@@ -21,19 +55,16 @@ class Codechef
 {
 	public static void main (String[] args) 
 	{
-		Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        int N, factorial = 1;   
+        N = scanner.nextInt();  
 
-        int N, sum = 0;
-        N = scanner.nextInt();
-        
         int i = 1;
-        
-        while (i <= N) {
-            sum += i;
-            i++;
+        while (i <= N) {        
+            factorial *= i;     
+            ++i;
         }
-        
-        System.out.println(sum);
+        System.out.println(factorial);
         scanner.close();
 	}
 }
