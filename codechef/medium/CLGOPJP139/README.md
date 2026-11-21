@@ -4,16 +4,32 @@
 
 ## Problem
 
-_Description not available._
+### Displaying the count of elements
+
+How many times will `"Java"` be printed by this code?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        for (int i = 0; i <= 5; i += 2) {
+            if (i == 4) {
+                break;
+            }
+            System.out.println("Java");
+        }
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-21T09:40:23.239Z  
+**Submitted:** 2026-11-21T09:40:34.727Z  
 
-```java
+```cpp
 import java.util.*;
 
 class Codechef
