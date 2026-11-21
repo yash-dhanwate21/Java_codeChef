@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args) throws java.lang.Exception
 	{
 	    Scanner scanner = new Scanner(System.in);
 
-        int N, prev = 0, current = 1;
+        int N, M;
         N = scanner.nextInt();
+        M = scanner.nextInt();
         // Update your code below this line.
-        for(int i = 0; i<N;i++)
+        int result = 1;
+        for (int i = 1;i <= M;i++)
         {
-            System.out.println(prev + " ");
-            int next = prev + current;
-            prev = current;
-            current = next;
+            result = result * N;
         }
+        System.out.println(result);
 	}
 }
