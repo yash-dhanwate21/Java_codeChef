@@ -5,19 +5,16 @@ class Codechef
 {
 	public static void main (String[] args) 
 	{
-		Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        int N, factorial = 1;   
+        N = scanner.nextInt();  
 
-        int N, sum = 0;
-        N = scanner.nextInt();
-        
         int i = 1;
-        
-        while (i <= N) {
-            sum += i;
-            i++;
+        while (i <= N) {        
+            factorial *= i;     
+            ++i;
         }
-        
-        System.out.println(sum);
+        System.out.println(factorial);
         scanner.close();
 	}
 }
